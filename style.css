@@ -341,7 +341,7 @@ ul.social-footer2 li a {
       font-size: 60px;
     }
     #mapOfHelp{
-      width:350px;
+      width:400px;
     }
     label {
       display: block;
@@ -401,6 +401,6 @@ ul.social-footer2 li a {
   height: 500px;
 }
     #map{
-        width: 260px ; 
+        width: 300px ; 
     }
 }
