@@ -1,0 +1,403 @@
+body{
+    
+    margin: 0;
+}
+#map{
+  width: 400px;
+  height: 200px;
+}
+#mapOfHelp{
+  width: 1700px;
+  height: 600px;
+}
+.carousel-item{
+    height: 800px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+} 
+.carousel-item img{
+    height: 800px;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 900px !important;
+}
+
+.right {
+    position: absolute;
+    top: 20% ; 
+    right: 1px;
+    color: white ; 
+  }
+  .left {
+    position: absolute;
+    top: 30% ; 
+    text-align: right;
+    left: 1px ; 
+    color: white ; 
+  }
+  .center {
+    position: absolute;
+    top: 85% ; 
+    text-align: center;
+    left: 48% ; 
+    color: white ; 
+    
+  }
+ 
+
+  .navbar .nav-item{
+      padding-left: 80px;
+  }
+ 
+  hr.style-one {
+    margin-top: 100px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 600px;
+}
+
+.flex-box{
+    display : flex ; 
+    flex-wrap: wrap;
+   
+   
+  }
+  
+  
+  
+  
+  .flex-box .display-4{
+      
+    text-align: center;
+    padding-bottom: 80px;
+}
+  
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    background: transparent;
+    border:none ; 
+    
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+.hero-image {
+  background-image: url("http://www.nicdarkthemes.com/themes/charity/wp/demo/wp-content/uploads/2017/05/parallax-1.jpg");
+  background-color: #cccccc; 
+  height: 650px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+#partners{
+  padding-top: 100px;
+  color:#ffffff; 
+  text-align: center; 
+  font-size:100px; 
+  line-height:50px; 
+  letter-spacing: 5px;
+  font-weight:normal;
+  font-family: 'Arvo', serif;
+}
+#abPart{
+  padding-top: 100px;
+  color:#ffffff; 
+  text-align:left; 
+  font-size:18px; 
+  line-height:30px; 
+  letter-spacing: 3px; 
+  font-weight:lighter;
+  font-family: 'Abel', sans-serif;
+  margin-left: 40px;
+  
+}
+.charities{
+  margin-top: 100px;
+  
+}
+.carousel-item h1{
+  font-family: 'Dosis', sans-serif;
+  font-size: 100px;
+}
+
+
+.fixed-top.scrolled {
+  background-color: #252525;
+  transition: background-color 200ms linear;
+}
+footer .main-footer{	padding: 20px 0;	background: #252525;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+
+.footer-copyright {	
+  background: #222;	
+  padding: 5px 0;
+}
+
+.footer-copyright nav ul {	
+  list-style: none;	
+  margin: 0;	
+  padding: 0;
+}
+.footer-copyright nav ul li {	
+  display: inline-block;	
+  line-height: 12px;	
+  margin: 0;	
+  padding: 0 8px;
+}
+.footer-copyright nav ul li a{	
+  color: #969696;
+}
+
+/* Footer Top */
+.footer-top{	
+  background: #252525;	
+  padding-bottom: 30px;	
+  
+  margin-bottom: 30px;	
+  border-bottom: 3px solid #222;
+}
+
+
+footer.transparent .footer-top, footer.transparent .main-footer{	
+  background: transparent;
+}
+
+
+
+.footer- .logo {    
+  display: inline-block;
+}
+
+
+.widget{	
+    padding: 10px;
+  
+    margin-bottom: 40px;
+    
+     
+}
+.widget.widget-last{	
+  margin-bottom: 0px;
+}
+
+.widget.subscribe p{	
+  margin-bottom: 18px;
+}
+.widget li a{	
+  color: #ff8d1e;
+}
+.widget li a:hover{	
+  color: #4b92dc;
+}
+.widget-title {
+  margin-bottom: 20px;
+}
+
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{	
+  color: #fff;
+}
+
+ul.social-footer2 {	
+  margin: 0;
+  padding: 0;
+    width: auto;
+  }
+ul.social-footer2 li {
+  display: inline-block;
+  padding: 0;
+}
+ul.social-footer2 li a:hover {
+  background-color:#ff8d1e;
+}
+ul.social-footer2 li a {
+  display: block;	
+  height:30px;
+  width: 30px;
+  text-align: center;
+}
+.btn{
+  background-color: #ff8d1e;
+   color:#fff;
+  }
+.btn:hover {
+  background: #4b92dc;color: #fff;
+
+}
+.container{
+  margin-left: 200px;
+  
+}
+.row{
+  
+  display: flex ; 
+  justify-content: space-around;
+}
+.typo-light div {
+  color:black;
+}
+.container-fluid{
+  background-color: #FAC06C ; 
+  margin: 0;
+  padding: 0;
+  
+}
+.img-fluid{
+  width: 1000px;
+  
+}
+.effect_underline:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.effect_underline:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.nav-link{
+  position: relative;
+}
+.res{
+  height: 200px;
+  background-color: #FEB54A; 
+  text-align: center;
+  display: flex ;
+  justify-content: space-around;
+  padding-top: 20px;
+  
+}
+#stats{
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+}
+#stats text {
+  font-size: 25px;
+  font-family: 'Padauk', sans-serif;
+  letter-spacing: 3px;
+}
+.headingOfCard{
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+
+
+
+@media(max-width: 700px ){
+  .container{
+    padding: 0 ;
+  }
+    .card{
+      margin: 0 auto;
+    }
+    .left h1{
+      font-size: 25px;
+    }
+    .left{
+      font-size: 15px;
+    }
+    .right{
+      font-size: 15px;
+    }
+    .right h1{
+      font-size: 25px;
+    }
+    .carousel-item img {
+      width: 400px;
+      height: 500px ;
+      position: relative;
+      left: 0px;
+    }
+    .charities{
+      width: 50px;
+      
+    }
+    #abPart{
+      font-size: 10px;
+    }
+    #partners{
+      font-size: 60px;
+    }
+    #mapOfHelp{
+      width:600px ; 
+    }
+    label {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .header {
+      display: block;
+      text-align: center;
+      padding-top: 60px;
+      font-size: 35px;
+    }
+    /* .navbar{
+      background-color: black ; 
+      
+    } */
+    .navbar-brand img,
+.navbar-nav {
+    
+    display: inline;
+    text-transform: uppercase;
+   
+}
+.navbar-dark {
+  font-family: 'Raleway', sans-serif;
+  
+  background-color: black ; 
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.container{
+  margin-left: 0px;
+  
+}
+
+#stats{
+  font-size: 30px;
+  
+}
+#stats text {
+  font-size: 15px;
+  
+  letter-spacing: 3px;
+}
+.res{
+  height: 100px;
+  
+  padding-top: 10px;
+  
+}
+.carousel-item{
+  height: 500px;
+ 
+  font-size: 18px;
+  line-height: 30px;
+} 
+.carousel-item img{
+  height: 500px;
+}
+}
